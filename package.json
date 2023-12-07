@@ -1,20 +1,25 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
+  "name": "front-end-interview",
+  "version": "1.0.0",
+  "description": "Build the Patient Referral Form using this [design spec](https://www.figma.com/file/XIHFNbIXykq8KosWEIryhoRJ/Patient-Referral-Form-interview?node-id=0%3A1).",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.20",
+    "@mui/system": "^5.14.20",
+    "react": "^18.2.0",
+    "react-autosuggest": "^10.1.0",
+    "react-dom": "^18.2.0",
+    "react-places-autocomplete": "^7.3.0",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [
